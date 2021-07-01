@@ -5,8 +5,3 @@ data class User(
     val name: String = "",
     val age: Int
 )
-
-data class Fruit(
-    val name: String = "",
-    val color: String = ""
-)

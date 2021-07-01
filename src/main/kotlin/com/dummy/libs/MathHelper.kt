@@ -1,4 +1,4 @@
-package com.example.helpers
+package com.dummy.libs
 
 
 object MathHelper {
@@ -6,3 +6,4 @@ object MathHelper {
 
     fun add(x: Int, y: Int) = x + y
 }
+

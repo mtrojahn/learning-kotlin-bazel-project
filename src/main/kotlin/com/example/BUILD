@@ -7,7 +7,10 @@ kt_jvm_library(
         "AppMain.kt",
         "OtherClasses.kt",
     ],
-    deps = ["//src/main/kotlin/com/example/helpers:helpers_lib"],
+    deps = [
+        "//:math_helper",
+        "//:string_helper",
+    ],
 )
 
 java_binary(
