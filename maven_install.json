@@ -1,0 +1,140 @@
+{
+    "dependency_tree": {
+        "conflict_resolution": {},
+        "dependencies": [
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-reflect:1.4.32",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains:annotations:13.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.32/kotlin-reflect-1.4.32.jar"
+                ],
+                "sha256": "dbf19e9cdaa9c3c170f3f6f6ce3922f38dfc1d7fa1cab5b7c23a19da8b5eec5b"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.32/kotlin-stdlib-common-1.4.32.jar"
+                ],
+                "sha256": "e1ff6f55ee9e7591dcc633f7757bac25a7edb1cc7f738b37ec652f10f66a4145"
+            },
+            {
+                "coord": "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar",
+                "directDependencies": [
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains:annotations:13.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.32/kotlin-stdlib-1.4.32.jar"
+                ],
+                "sha256": "13e9fd3e69dc7230ce0fc873a92a4e5d521d179bcf1bef75a6705baac3bfecba"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.1.0",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.1.0/kotlinx-serialization-core-jvm-1.1.0.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains:annotations:13.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.1.0/kotlinx-serialization-core-jvm-1.1.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.1.0/kotlinx-serialization-core-jvm-1.1.0.jar"
+                ],
+                "sha256": "69d18c700cfdf207b3e9bf6f5d58e7de08482d9e34d7c2a0adcb1db8082df943"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.1.0",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.1.0/kotlinx-serialization-json-jvm-1.1.0.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.1.0"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.1.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.1.0/kotlinx-serialization-json-jvm-1.1.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.1.0/kotlinx-serialization-json-jvm-1.1.0.jar"
+                ],
+                "sha256": "cea6836d3a3990b7ac59f61a9534a0bf1c8d3932bd206080a3a13622ec7587d1"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.1.0/kotlinx-serialization-json-1.1.0.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.1.0"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.1.0",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains:annotations:13.0",
+                    "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.1.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.1.0/kotlinx-serialization-json-1.1.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.1.0/kotlinx-serialization-json-1.1.0.jar"
+                ],
+                "sha256": "a1f8ab9af02a9053169f834e559fc407fe8fd3473273988e7fd9b321a327b7fb"
+            },
+            {
+                "coord": "org.jetbrains.kotlinx:kotlinx-serialization-runtime:1.0-M1-1.4.0-rc",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-runtime/1.0-M1-1.4.0-rc/kotlinx-serialization-runtime-1.0-M1-1.4.0-rc.jar",
+                "directDependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32"
+                ],
+                "dependencies": [
+                    "org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32",
+                    "org.jetbrains.kotlin:kotlin-stdlib:1.4.32",
+                    "org.jetbrains:annotations:13.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-runtime/1.0-M1-1.4.0-rc/kotlinx-serialization-runtime-1.0-M1-1.4.0-rc.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-runtime/1.0-M1-1.4.0-rc/kotlinx-serialization-runtime-1.0-M1-1.4.0-rc.jar"
+                ],
+                "sha256": "b8431c786c81cb84713c038bb674c851aba533c89ba9f04f22fd78f2baacd6c4"
+            },
+            {
+                "coord": "org.jetbrains:annotations:13.0",
+                "file": "v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+                ],
+                "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+            }
+        ],
+        "version": "0.1.0",
+        "__AUTOGENERATED_FILE_DO_NOT_MODIFY_THIS_FILE_MANUALLY": 685533842
+    }
+}

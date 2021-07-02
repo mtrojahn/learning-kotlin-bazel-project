@@ -9,6 +9,7 @@ kt_jvm_library(
     ],
     deps = [
         "//:math_helper",
+        "//:serialization",
         "//:string_helper",
     ],
 )
