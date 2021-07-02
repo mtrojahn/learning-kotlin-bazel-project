@@ -1,7 +1,13 @@
+####################################
+### KOTLIN RELATED CONFIGURATION ###
+####################################
+
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
+# using 1.5 rules
 rules_kotlin_version = "v1.5.0-alpha-3"
 
+# but not the 1.5 compiler
 kotlin_compiler_version = "1.4.32"
 
 http_archive(
@@ -23,7 +29,10 @@ kotlin_repositories(compiler_release = KOTLIN_COMPILER_RELEASE)
 
 register_toolchains("//:kotlin_toolchain")
 
-# MAVEN
+###################################
+### MAVEN RELATED CONFIGURATION ###
+###################################
+
 RULES_JVM_EXTERNAL_TAG = "2.8"
 
 RULES_JVM_EXTERNAL_SHA = "79c9850690d7614ecdb72d68394f994fef7534b292c4867ce5e7dec0aa7bdfad"
@@ -37,6 +46,7 @@ http_archive(
 
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 
+# dependecies that we will download from the repository
 maven_install(
     artifacts = [
         "org.jetbrains.kotlin:kotlin-reflect:1.4.32",

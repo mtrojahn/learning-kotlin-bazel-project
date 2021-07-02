@@ -9,6 +9,7 @@ define_kt_toolchain(
     language_version = "1.4",
 )
 
+# adding the serialization plugin as a compiler plugin
 kt_compiler_plugin(
     name = "serialization_plugin",
     id = "org.jetbrains.kotlin.serialization",
@@ -17,6 +18,7 @@ kt_compiler_plugin(
     ],
 )
 
+# this is a lib we will have to import on every other lib that will use kotlinx serialization
 kt_jvm_library(
     name = "kotlinx_serialization",
     srcs = [],
@@ -25,6 +27,15 @@ kt_jvm_library(
         "@maven//:org_jetbrains_kotlinx_kotlinx_serialization_json",
         "@maven//:org_jetbrains_kotlinx_kotlinx_serialization_runtime",
     ],
+)
+
+# aliases on the project's root dir can be a nice way to create a collection of libs that devs can use and don't need
+# to know the whole implementation or package dependencies. with aliases we can even abstract compiler plugins and
+# reflection
+alias(
+    # allows me to run "bazel run //:app" instead of "bazel run //src/main/kotlin/com/example:myapp"
+    name = "app",
+    actual = "//src/main/kotlin/com/example:myapp",
 )
 
 alias(
